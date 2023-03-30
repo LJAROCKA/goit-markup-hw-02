@@ -27,7 +27,6 @@ body {
   font-size: 26px;
   color: #2196f3;
   width: var(--font-size);
-  text-decoration: none;
 }
 .logo_part2 {
   font-family: "Raleway";
@@ -151,5 +150,4 @@ address {
 }
 .logo_end {
   color: #ffffff;
-  text-decoration: none;
 }
