@@ -59,7 +59,7 @@ body {
   height: 600px;
   color: var(--color-text);
 }
-h1 {
+.main-title {
   font-size: 44px;
   width: 696px;
   height: 120px;
@@ -84,8 +84,11 @@ h1 {
   font-style: Bold;
   font-weight: 900px;
 }
-button:focus,
-link:focus {
+button:focus {
+  background-color: var(--background-colour-button);
+  color: var(--color-text);
+}
+.link:focus {
   background-color: var(--background-colour-button);
   color: var(--color-text);
 }
@@ -111,17 +114,17 @@ button {
 .link:hover {
   color: var(--background-colour-button);
 }
-h3 {
+.article-title {
   font-size: var(--font-size);
   color: inherit;
   line-height: 1.14;
 }
-h2 {
+.section-title {
   font-size: 36px;
   color: inherit;
   line-height: 1.166;
 }
-p {
+.text {
   font-size: var(--font-size);
   line-height: 1.71;
 }
@@ -135,7 +138,7 @@ p {
   color: var(--text-color);
   line-height: 1.875;
 }
-address {
+.bottom-contacts {
   font-size: var(--font-size);
   color: var(--color-text);
 }
